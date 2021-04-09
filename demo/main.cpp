@@ -1,5 +1,6 @@
-#include <header.hpp>
+#include <Server.hpp>
 
-int main() {
-
+int main()
+{
+  Server s;
 }
