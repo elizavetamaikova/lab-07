@@ -2,5 +2,5 @@
 
 int main()
 {
-  Server s;
+  Server a;
 }
