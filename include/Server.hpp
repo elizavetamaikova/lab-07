@@ -1,9 +1,7 @@
-//
-// Created by elizavetamaikova on 05.04.2021.
-//
+// Copyright 2021 elizavetamaikova
 
-#ifndef SUGGESTION_SERVER_HPP
-#define SUGGESTION_SERVER_HPP
+#ifndef INCLUDE_SERVER_HPP_
+#define INCLUDE_SERVER_HPP_
 
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>
@@ -87,7 +85,6 @@ class Server {
   nlohmann::json _js;
   std::vector<JstoVec> _vec;
   std::shared_mutex _lock;
-
 };
 
-#endif  // SUGGESTION_SERVER_HPP
+#endif  // INCLUDE_SERVER_HPP_

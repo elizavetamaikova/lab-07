@@ -1,6 +1,4 @@
-//
-// Created by elizavetamaikova on 05.04.2021.
-//
+// Copyright 2021 elizavetamaikova
 
 #include "Server.hpp"
 
